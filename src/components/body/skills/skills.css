@@ -1,0 +1,12 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+}

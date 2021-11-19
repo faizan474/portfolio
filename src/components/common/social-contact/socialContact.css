@@ -1,0 +1,27 @@
+.socialContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-icon-div{
+    padding :6px;
+    cursor: pointer;
+    margin: 6px;
+}
+
+.social-icon{
+    height: 40px;
+
+}
+.social-icon:hover {
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.1);
+  }
+@media only screen and (max-width: 720px){
+ .social-icon{
+     height: 32px;
+ }    
+}

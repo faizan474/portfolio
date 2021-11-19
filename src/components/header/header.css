@@ -1,0 +1,55 @@
+.header{
+    display:flex;
+    /* background-color: #7fffd4; */
+    justify-content: space-between;
+    flex:1;
+    padding:12px;
+    position: relative;
+    align-items: center;
+    
+}
+.menu{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+
+}
+
+.menu-icon{
+    font-size: 24px;   
+}
+
+.web-menu{
+    display: flex;
+}
+
+.mobile-menu{
+    display: none;
+}
+.logo{
+    display: flex;
+    font-size: 36px;
+    color:blueviolet;
+    font-weight: 800;
+}
+
+
+
+@media only screen and  (max-width:720px){
+    
+        .mobile-menu{
+            display: flex;
+        }
+        .web-menu{
+            display: none;
+        }
+        .logo{
+            font-size: 24px;
+        }
+}
+ /* for mobile we have to increase the width */
+/* 
+@media only screen and  (max-width:512px){
+  
+} */

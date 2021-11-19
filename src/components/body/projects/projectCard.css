@@ -1,0 +1,148 @@
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    /* width:100vw; */
+    width: 60vw;
+    height: 100%;
+    align-items:center;
+    justify-content: center;
+    margin:16px 0px;
+    padding:8px 2px;
+    /* transition:all  5s ease; */
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-transition: all 200ms ease;
+        transition: all 200ms ease;
+        padding: 2.5rem;
+        background: #fff;
+        border: 1px solid #ebecec;
+        border-radius: 6px;
+        -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        margin: .5rem;
+   
+}
+.projectCard:hover {
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.1);
+  }
+
+.projectCard-item{
+    /* width:60vw; */
+    /* flex:8; */
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    overflow:hidden;
+
+}
+.project-photo{
+    /* flex:4; */
+    width: 40%;
+    transform: rotate(-9deg);
+    
+}
+.project-info{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    width: 60%;
+ margin-right: 24px;
+ z-index: 10;
+
+}
+.project-info p{
+    text-align: justify;
+    
+}
+.project-title{
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 10;
+}
+.project-tags{
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+    z-index: 10;
+
+}
+.project-tag{
+    padding: 4px 0px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+    z-index: 10;
+}
+.project-links a{
+    text-decoration: none;
+    color: black;
+    z-index: 10;
+}
+.project-links{
+    margin-top: 6px;
+    display: flex;
+    z-index: 10;
+}
+
+.link-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: max-content;
+    padding :4px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 6px;
+    z-index: 10;
+}
+.link-button i{
+    display: flex;
+    align-items: center;
+    mask-repeat: 4px;
+    z-index: 10;
+}
+@media only screen and (max-width: 1024px){
+    
+  }
+@media only screen and (max-width: 720px){
+    .project-photo{
+        width: 70%;
+       
+
+    }
+    .projectCard-item{
+        flex-direction: column-reverse;
+        margin:16px 2px;
+    }
+   
+
+    .project-info{
+        width: 90%;
+        margin-left: 0px;
+        margin-top:12px ;
+
+    }
+    .projectCard{
+        width: 95vw;
+        height: 100%;
+        align-items:center;
+        justify-content: center;
+        margin:32px 0px;
+        padding:8px 2px;
+        /* transition:all  5s ease; */
+       
+    }
+    .project-tags{
+        max-width: 100%;
+    }
+}
