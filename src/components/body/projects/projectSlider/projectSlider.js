@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { ProjectData } from '../../data/projects';
-import ProjectCard from './projectCard';
+import { ProjectData } from '../../../data/projects';
+import ProjectCard from '../projectCard/projectCard';
 import "./projectSlider.css";
-function PojectSlider() {
+function ProjectSlider() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data=ProjectData;
     const len=data.length;
@@ -15,6 +15,7 @@ function PojectSlider() {
     }
     
     return (
+
         <div className="project-slider">
             
             <div className="slider" >
@@ -26,10 +27,10 @@ function PojectSlider() {
             }
                 
             </div>
-            <img src={require('../../../assets/arrow.png').default} alt="arrow-left" className="arrow-left" onClick={()=>handleClick("left")}/>
-            <img src={require('../../../assets/arrow.png').default} alt="arrow-right" className="arrow-right" onClick={()=>handleClick("right")}/>
+            <img src={require('../../../../assets/arrow.png').default} alt="arrow-left" className="arrow-left" onClick={()=>handleClick("left")}/>
+            <img src={require('../../../../assets/arrow.png').default} alt="arrow-right" className="arrow-right" onClick={()=>handleClick("right")}/>
         </div>
     )
 }
 
-export default PojectSlider;
+export default ProjectSlider;

@@ -1,0 +1,14 @@
+.projectVertical{
+    display:none;
+
+
+}
+@media only screen and (max-width: 720px){
+
+    .projectVertical{
+        display: flex;
+        flex-direction: column ;
+    
+    }
+
+}
