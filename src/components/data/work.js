@@ -1,19 +1,24 @@
 export const timelineElements=[
     {
         id:1,
-        title:"Graduate Analyst",
-        company:"Duetsche Bank",
+        title:"Graduate Analyst-Tech",
+        company:"Deutsche Bank",
         location:"Pune, India",
-        description:" ffdf fd fd fd fdf dfdfdf df this is some random discription so that it will fill some space  so just typing some random words",
+        description:[
+            "● Working with the CIS team  under Corporate Banking Tech."
+],
         date:"July 2021 - Present",
         icon:"work"
     },
     {
         id:2,
-        title:"Software Developer Intern",
+        title:"SDE Intern",
         company:"Amazon",
         location:"Hyderabad, India",
-        description:" ffdf fd fd fd fdf dfdfdf df  is some random discription so that it will fill some space  so just typing some random words",
+        description:[
+                    "● Worked with the Transportation Network IntelligenceTeam under core Trans Tech.",
+                     "● Developed a static application for data visualisation. The technology used are d3.js, jQuery and Amazon S3 bucket."
+        ],
         date:"June 2020 - July 2020",
         icon:"work"
     },
@@ -22,7 +27,7 @@ export const timelineElements=[
         title:"B. Tech ",
         company:"National Institute of Technology, Raipur",
         location:"Raipur, India",
-        description:" ffdf fd fd fd fdf dfdfdf df is some random discription so that it will fill some space  so just typing some random words",
+        description:["CGPA : 9.4/10"],
         date:"July 2017 - June 2021",
         icon:"school"
     },
@@ -31,7 +36,7 @@ export const timelineElements=[
         title:"XII CBSE",
         company:"Jawahar Navodaya Vidyalaya ",
         location:"Rudrapur, India",
-        description:" ffdf fd fd fd fdf dfdfdf df  is some random discription so that it will fill some space  so just typing some random words",
+        description:[" class X : 93.5%" , "class XII : 89.4% "],
         date:"July 2016",
         icon:"school"
     }
