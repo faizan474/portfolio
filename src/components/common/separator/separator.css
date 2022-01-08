@@ -3,4 +3,12 @@
     width: 40%;
     height: 6px;
     border-radius: 3px;
+    margin: 20px 0px;
  }
+ @media only screen and (max-width: 720px){
+
+    .separator{
+        margin: 10px 0px;
+    }
+
+}
